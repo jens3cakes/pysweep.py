@@ -8,7 +8,7 @@ import re
 greeting = ["hello"]
 ip_target = "10.0.2.0/24"
 fping_range = "fping -g"
-ip_range = ""
+ip_range = 0
 pysweep_file = open("filePysweep.txt", mode ="w+t")
 
 
