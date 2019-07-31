@@ -26,12 +26,12 @@ def create_ip_list():
      
      pysweep_file.close()
 
+
     
 # Loop over the list of IP addresses
 def process_list():
-    print('this is a string', ip_range)
-    for i in ip_range:
-        print('fart',i)
+    pass
+        
             
 
 if __name__ == "__main__":
