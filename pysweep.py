@@ -24,8 +24,7 @@ def create_ip_list():
              output = subprocess.run(['fping', '-C', '5', str(ip)], capture_output=True, text = True)
              pysweep_file.write(output.stdout)   
      
-     print(ip_range)
-     print("resources")
+     pysweep_file.close()
 
     
 # Loop over the list of IP addresses
