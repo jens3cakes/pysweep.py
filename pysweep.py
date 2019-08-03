@@ -28,14 +28,10 @@ def create_ip_list():
 
 
     
-# Loop over the list of IP addresses
-def process_list():
-    pass
-        
-            
+   
 
 if __name__ == "__main__":
     create_ip_list()
-    #process_list()
-    print('this is out',ip_range)
+    
+    
   
