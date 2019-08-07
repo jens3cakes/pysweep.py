@@ -1,21 +1,23 @@
 import subprocess
+
 import re
 import os
+
+=======
 
 
 #Global variable
 
 greeting = ["hello"]
-ip_target = "10.0.2.0/24"
+ip_target = "172.20.10.13/24"
 fping_range = "fping -g"
 ip_range = []
 pysweep_file = open("filePysweep.txt", mode ="w+t")
 
-
-
 #Create a list of IP addresses
 
 def create_ip_list():
+
        
      output = subprocess.run(['fping', '-g','-a','-q', ip_target], text = True, capture_output=True)
      spl_output = output.stdout.split('\n')
@@ -34,4 +36,7 @@ if __name__ == "__main__":
     create_ip_list()
     
     
+=======
+    
+
   
